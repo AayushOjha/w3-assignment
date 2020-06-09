@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+*
+{
+    box-sizing: border-box;
+}
+
+section
+{
+    padding: 0 20px 0 20px;
+}
+
+
+#nav-box
+{
+    padding-right: 0;
+    padding-left: 0;
+    
+}
+
+a.navbar-brand
+{
+    margin-left: 2%;
+    font-size: 30px;
+}   
+
+
+.body-box
+{
+    height: auto;
+    background-color: grey;
+    margin: 20px auto;
+    border: 3px solid black;   
+    padding: 10px;
+}
+
+h2
+{
+    color: black;
+}
+
+p.item-list
+{
+   margin-top: 60px;
+   text-align: justify; 
+   font-weight: 500;
+}
+
+#navbarNav
+{
+    background-color: #ff6600;
+}
+
+
+/* Below only responsive code*/ 
+
+@media(min-width:576px)
+{
+   #ayush
+{
+    display: none !important;
+}
+}  
