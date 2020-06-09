@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-section
-{
-    padding: 0 20px 0 20px;
-}
 
 
 #nav-box
@@ -54,10 +50,10 @@ p.item-list
 
 /* Below only responsive code*/ 
 
-@media(min-width:576px)
+@media(min-width:768px)
 {
    #ayush
 {
-    display: none !important;
+    display: nones;
 }
 }  
